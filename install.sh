@@ -16,7 +16,7 @@ esac
 
 BINARY="kcl-${OS}-${ARCH}"
 
-BASE_URL=" https://kcl-zuq70iw.onwolke.app/releases"
+BASE_URL=" https://kcl.wolke.host/releases"
 DOWNLOAD_URL="$BASE_URL/$BINARY"
 
 echo "Detected: $OS-$ARCH"
