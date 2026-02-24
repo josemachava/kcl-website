@@ -28,7 +28,7 @@ chmod +x kcl
 
 echo "Installing to /usr/local/bin..."
 
-sudo mv kcl /usr/local/bin/kcl
+mkdir -p ~/.local/bin
+mv kcl ~/.local/bin/kcl
 
 echo "✅ KCL installed successfully!"
-kcl --version || true
