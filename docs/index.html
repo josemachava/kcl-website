@@ -33,7 +33,8 @@ on any VPS provider automatically.
 <h2>Install CLI</h2>
 
 <pre>
-curl -sfL https://get.kcl.dev | sh
+curl -sfL https://kcl.wolke.host/install.sh | sh
+
 </pre>
 
 
@@ -44,10 +45,10 @@ curl -sfL https://get.kcl.dev | sh
 kcl create hello --host=89.167.53.25
 </pre>
 
-<h2>Export kubeconfig</h2>
+<h2>Use exported kubeconfig</h2>
 
 <pre>
-kcl kubeconfig my-cluster
+kubectl kubeconfig /path/my-cluster
 </pre>
 
 <h2>Verify</h2>
