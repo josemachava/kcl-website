@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KCL Docs</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+<div class="docs-wrapper">
+
+<aside class="sidebar">
+  <h2>KCL Docs</h2>
+  <a href="#">Getting Started</a>
+  <a href="#">Installation</a>
+  <a href="#">Create Cluster</a>
+  <a href="#">Providers</a>
+  <a href="#">Architecture</a>
+  <a href="#">CLI Reference</a>
+</aside>
+
+<main class="docs">
+
+<h1>Getting Started</h1>
+
+<p>
+Kubernetes Cluster Launcher allows you to create Kubernetes clusters
+on any VPS provider automatically.
+</p>
+
+<h2>Install CLI</h2>
+
+<pre>
+curl -sfL https://get.kcl.dev | sh
+</pre>
+
+
+
+<h2>Create Cluster</h2>
+
+<pre>
+kcl create hello --host=89.167.53.25
+</pre>
+
+<h2>Export kubeconfig</h2>
+
+<pre>
+kcl kubeconfig my-cluster
+</pre>
+
+<h2>Verify</h2>
+
+<pre>
+kubectl get nodes
+</pre>
+
+</main>
+
+</div>
+
+</body>
+</html>
